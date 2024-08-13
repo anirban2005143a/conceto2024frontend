@@ -1,0 +1,23 @@
+/* src/gradient.css */
+.gradient-text {
+    color: whitesmoke;
+  }
+  
+  .gradient-text:hover, .gradient-text:focus, .gradient-text:active {
+    background:  linear-gradient(to left, #ce14ee, rgba(235, 11, 205, 0.963));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+ .gradient-button {
+   color: whitesmoke;
+   border: 1px solid transparent;
+ }
+ 
+ .gradient-button:hover, .gradient-button:focus, .gradient-button:active {
+   background: linear-gradient(to left, #ce14ee, rgba(235, 11, 205, 0.963));
+   color: white;
+   border: 1px solid rgba(244, 12, 213, 0.909);
+ }
+
+ 
