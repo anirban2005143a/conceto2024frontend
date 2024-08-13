@@ -1,0 +1,16 @@
+#cursor .cursor{
+    background-color: rgba(255, 0, 0, 0.232);
+}
+#cursor .cursor::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(20px); /* Adjust the blur amount */
+    z-index: -1; /* Place the blur behind the text */
+}
